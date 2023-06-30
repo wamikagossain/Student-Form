@@ -1,0 +1,79 @@
+body {
+    font-family:Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    width: 40vw;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .dob{
+    cursor: pointer;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  button{
+    margin-top: 10px;
+    width: 80px; 
+    height: 40px; 
+    font-size: 20px; 
+    border-radius: 8px;
+    background-color: #4815c0; 
+    color: #fff; 
+    /* border: none; */
+    cursor: pointer;
+    transition: green 0.3s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #45a049; /* Hover background color */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 10px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
